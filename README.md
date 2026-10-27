@@ -6,14 +6,14 @@ My reusable agent skills, starting with selected skills from `~/.agents/skills`.
 
 | Skill | Purpose |
 | --- | --- |
-| [pr-description](pr-description/SKILL.md) | Write compact pull request descriptions in Brazilian Portuguese using a fixed template. |
+| [tell-the-story-of-changes](tell-the-story-of-changes/SKILL.md) | Write compact pull request descriptions in Brazilian Portuguese using a fixed template. |
 
 ## Install a skill
 
 Install with the [skills CLI](https://skills.sh/docs):
 
 ```sh
-npx skills add douglaschalegre/skills --skill pr-description
+npx skills add douglaschalegre/skills --skill tell-the-story-of-changes
 ```
 
 Or install manually.
@@ -28,10 +28,10 @@ Copy the skill into your local skills directory:
 
 ```sh
 mkdir -p ~/.agents/skills
-cp -R skills/pr-description ~/.agents/skills/
+cp -R skills/tell-the-story-of-changes ~/.agents/skills/
 ```
 
-If `pr-description` is already installed, back it up before replacing it.
+If a skill is already installed, back it up before replacing it.
 
 ## Add a skill
 

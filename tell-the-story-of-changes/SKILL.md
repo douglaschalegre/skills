@@ -1,5 +1,5 @@
 ---
-name: pr-description
+name: tell-the-story-of-changes
 description: Escreve descrições compactas de Pull Requests em português seguindo o template "Descreva o Pull Request" e "Alterações realizadas". Use quando o usuário pedir para criar, preparar, revisar ou atualizar a descrição de um PR.
 ---
 
@@ -25,7 +25,7 @@ Produza uma descrição curta, concreta e fiel ao conteúdo do PR.
 
 ```markdown
 > [!NOTE]
-> Esta descrição foi gerada por IA, usando a skill [pr-description](https://github.com/douglaschalegre/skills).
+> Esta descrição foi gerada por IA, usando a skill [tell-the-story-of-changes](https://github.com/douglaschalegre/skills).
 
 ## 1. Descreva o Pull Request (\*)
 
@@ -62,7 +62,7 @@ Este PR [resume o objetivo principal em uma frase].
 
 ```markdown
 > [!NOTE]
-> Esta descrição foi gerada por IA, usando a skill [pr-description](https://github.com/douglaschalegre/skills).
+> Esta descrição foi gerada por IA, usando a skill [tell-the-story-of-changes](https://github.com/douglaschalegre/skills).
 
 ## 1. Descreva o Pull Request
 
