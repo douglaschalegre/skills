@@ -43,11 +43,11 @@ cp -R skills/make-bugs-confess ~/.agents/skills/
 cp -R skills/conjure-a-local-review ~/.agents/skills/
 ```
 
-`summon-a-review` requires `tell-the-story-of-changes`. Install both to use the full workflow.
+[summon-a-review](summon-a-review/SKILL.md) requires [tell-the-story-of-changes](tell-the-story-of-changes/SKILL.md). Install both to use the full workflow.
 
-`make-bugs-confess` requires `principle-subtract-before-you-add`, `how`, and `why`, plus support for independent agents. These dependencies are not bundled in this repository.
+[make-bugs-confess](make-bugs-confess/SKILL.md) requires [principle-subtract-before-you-add](https://github.com/cursor/plugins/blob/main/pstack/skills/principle-subtract-before-you-add/SKILL.md), [how](https://github.com/cursor/plugins/blob/main/pstack/skills/how/SKILL.md), and [why](https://github.com/cursor/plugins/blob/main/pstack/skills/why/SKILL.md), plus support for independent agents. These dependencies are not bundled in this repository.
 
-`conjure-a-local-review` uses the Atlassian MCP, `blast-radius`, and `principle-build-the-lever`. Publishing findings after the local review requires explicit authorization and `cast-review-remarks`.
+[conjure-a-local-review](conjure-a-local-review/SKILL.md) uses the Atlassian MCP, [blast-radius](https://github.com/cursor/plugins/blob/main/pstack/skills/blast-radius/SKILL.md), and [principle-build-the-lever](https://github.com/cursor/plugins/blob/main/harness/pstack/claude-code/skills/principle-build-the-lever/SKILL.md). Publishing findings after the local review requires explicit authorization and [cast-review-remarks](cast-review-remarks/SKILL.md).
 
 If a skill is already installed, back it up before replacing it.
 
