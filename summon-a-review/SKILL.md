@@ -1,6 +1,6 @@
 ---
 name: summon-a-review
-description: Abre Pull Requests no GitHub, atribui ao próprio usuário e usa a skill tell-the-story-of-changes para escrever a descrição. Use quando o usuário pedir para abrir ou criar um PR.
+description: Use quando o usuário pedir para abrir ou criar um Pull Request no GitHub.
 ---
 
 # Abrir Pull Request
