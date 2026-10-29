@@ -1,6 +1,6 @@
 ---
 name: make-bugs-confess
-description: Investiga bugs em ondas, testa uma solução simples e confronta o resultado com uma análise independente usando how e why. Use para diagnosticar bugs, investigar regressões ou corrigir comportamentos incorretos.
+description: Use quando o usuário pedir para diagnosticar um bug, investigar uma regressão ou corrigir um comportamento incorreto.
 ---
 
 # Investigar bugs em ondas
