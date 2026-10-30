@@ -56,7 +56,7 @@ Este PR [resume o objetivo principal em uma frase].
 3. Omita as seções sem (\*) quando não se aplicarem. A seção `Imagem de antes/depois` só pode ser omitida se não houver alteração de UI no frontend. Omita `Documentação C4` quando não houver documentação C4 para exibir.
 4. Sobre a documentação C4, o nível de profundidade do diagrama fica a critério do conteúdo do PR. https://c4model.com/diagrams
 5. Executar await mermaid.parse(diagrama) em todos os blocos Mermaid antes de publicar.
-6. Inclua sempre o disclaimer de geração por IA ao final da descrição, exatamente como aparece no template, mesmo quando omitir as seções opcionais.
+6. Inclua sempre o disclaimer de geração por IA no início da descrição, exatamente como aparece no template, mesmo quando omitir as seções opcionais.
 
 ## Critérios de escrita
 

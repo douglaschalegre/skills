@@ -17,7 +17,7 @@ Publique o comentário no PR ou na thread indicada pelo usuário. Se o pedido fo
 ## Escreva o comentário
 
 - Escreva em português do Brasil, salvo orientação diferente do usuário.
-- Use obrigatoriamente [Conventional Comments](https://conventionalcomments.org/) nos comentários de review, inclusive nas respostas a revisões. Comece com `<label> [decorations]: <subject>`, com decorations opcionais entre parênteses. Acrescente a discussão em um parágrafo separado quando necessário.
+- Use obrigatoriamente [Conventional Comments](https://conventionalcomments.org/) nos comentários de review, inclusive nas respostas a revisões. Após o disclaimer obrigatório, comece o conteúdo com `<label> [decorations]: <subject>`, com decorations opcionais entre parênteses. Acrescente a discussão em um parágrafo separado quando necessário.
 - Mantenha os labels em inglês e o texto em português. Escolha o label conforme a intenção, como `issue`, `suggestion`, `question`, `nitpick`, `praise` ou `note`. Use `blocking` ou `non-blocking` quando precisar explicitar se o comentário impede a aprovação. Exemplo: `suggestion (non-blocking): Extraia esta condição para facilitar a leitura.`
 - Seja direto, respeitoso e específico. Diferencie uma dúvida, uma sugestão e um problema confirmado.
 - Sustente os comentários de revisão com o código e o comportamento observado. Explique o impacto e indique uma mudança concreta quando houver um problema.
@@ -25,7 +25,7 @@ Publique o comentário no PR ou na thread indicada pelo usuário. Se o pedido fo
 - Não afirme que uma correção foi feita ou que um teste passou sem verificar. Se faltar evidência, apresente a incerteza como dúvida.
 - Não prometa mudanças em nome do usuário nem declare concordância com a revisão sem respaldo no pedido ou no trabalho realizado.
 
-Sempre que responder a uma thread de PR em nome do douglas, inclua o seguinte disclaimer na resposta, exatamente como escrito:
+Inicie todo comentário, corpo de revisão ou resposta em uma thread de PR em nome do usuário com o seguinte bloco `NOTE`, antes de qualquer outro texto:
 
 ```markdown
 > [!NOTE]
