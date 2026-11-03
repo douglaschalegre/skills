@@ -25,10 +25,13 @@ Produza uma descrição curta, concreta e fiel ao conteúdo do PR.
 
 - Toda alteração de frontend que adicionar ou modificar a UI exige evidência visual no PR, na seção `Imagem de antes/depois`.
 - Para produzir qualquer evidência visual, reproduza a tela executando exatamente os mesmos componentes usados na aplicação. Importe os componentes reais do projeto e mantenha seus estilos, temas, assets e providers necessários.
+- Preserve também a inicialização visual da aplicação. Ao montar uma página de captura isolada, consulte o HTML de entrada e o bootstrap do projeto e reproduza a ordem de carregamento do CSS inicial, das fontes e do design system. Alguns design systems calculam tokens em `rem` durante a importação; nesses casos, o tamanho da fonte raiz precisa estar aplicado antes dessa importação. Use a configuração do projeto, sem presumir um valor de fonte raiz ou compensar diferenças com CSS exclusivo da captura.
+- Antes de capturar o antes e o depois, aguarde `document.fonts.ready`, confirme que as fontes esperadas carregaram e confira os estilos computados da raiz e de elementos representativos (família e tamanho da fonte, além de dimensões relevantes) contra a aplicação na versão correspondente. Corrija divergências do ambiente de captura antes de anexar as imagens; importar os componentes reais, por si só, não garante fidelidade visual.
 - Use valores mockados apenas nos dados, nas respostas das APIs e no estado necessário para reproduzir o cenário. Não substitua os componentes reais por mocks.
 - Nunca recrie a UI do zero em HTML/CSS, em componentes paralelos ou em uma página estática que apenas imite a aplicação. Semelhança visual não comprova a alteração no código real.
 - Capture o antes com os componentes da versão base e o depois com os componentes da versão do PR. Use os mesmos dados e condições de captura para permitir a comparação. Para uma tela nova, capture o resultado e informe que não existe uma versão anterior.
-- Registre junto à evidência a tela ou o estado demonstrado e quais dados foram mockados. Preserve um comando ou procedimento reproduzível para obter a captura com os componentes reais.
+- Na descrição do PR, identifique apenas o antes/depois e, quando necessário, a tela ou o estado demonstrado. Não inclua explicações sobre como a captura foi feita (ferramentas, mocks, componentes, comandos ou configuração), nem adicione esses textos às imagens.
+- Preserve os dados mockados e o comando ou procedimento reproduzível no registro de execução, fora da descrição do PR e das imagens.
 - Se não conseguir executar os componentes reais ou capturar a evidência, informe o impedimento e a evidência pendente. Não apresente uma recriação como evidência nem considere a descrição concluída enquanto faltar a evidência obrigatória.
 
 ## Template obrigatório
